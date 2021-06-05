@@ -103,9 +103,12 @@ li {
   background-color: hsl(179, 53%, 59%);
 }
 @media screen and (max-width: 700px) {
+  .box {
+    margin: 20px;
+  }
   .box2 {
     max-height: 700px;
-    display: grid;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
   }
 }
